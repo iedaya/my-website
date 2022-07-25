@@ -1,0 +1,139 @@
+<html>
+<head>
+<body>
+<title> GALLERY </title>
+</head>
+<a href ="website.html"></a>
+<style>
+body {
+  background-image: url('love.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<h2 align="center"><font face="Times New Roman" font color="purple" size="40%"> &#128151; NRDYH.ZN &#128151; </font></h2> 
+<center><p style="font-size:48px">
+
+<hr>
+<nav>
+<table cellspacing="2" cellpadding="30">
+<tr>
+<td><a href="index.html">HOMES</a></td>
+<td><a href="biodata.html">BIODATA</a></td>
+<td><a href="aboutme.html">ABOUT ME</a></td>
+<td><a href="family.html">FAMILY</a></td>
+<td><a href="friend.html">FRIEND</a></td>
+<td><a href="gallery.html">GALLERY</a></td>
+</tr>
+</table>
+</nav>
+<hr>
+<br>
+<br>
+<h3 align="center"><font face="Times New Roman" font size="7%" > &hearts; Iedaya Gallery's &hearts;</font></h3> 
+<marquee><font face="VNI-Briquet" font size="8%" font color="#B3446C" >MY FAVORITE &#128526; </font></marquee>
+<br>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 3px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 2px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 500px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 300px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+<!-- Header -->
+<div class="header">
+</div>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="image/alone.jpeg" style="width:100%">
+    <img src="image/kampung.jpeg" style="width:100%">
+    <img src="image/sky3.jpeg" style="width:100%">
+    <img src="image/sunset1.jpeg" style="width:100%">
+    <img src="image/ootd.jpeg" style="width:100%">
+    <img src="image/homes.jpeg" style="width:100%">
+    <img src="image/tgdawai.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/beach4.jpeg" style="width:100%">
+    <img src="image/sky4.jpeg" style="width:100%">
+    <img src="image/sunset2.jpeg" style="width:100%">
+    <img src="image/beach3.jpeg" style="width:100%">
+    <img src="image/selfie.jpeg" style="width:100%">
+    <img src="image/sky1.jpeg" style="width:100%">
+    <img src="image/uni1.jpeg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="image/class.jpeg" style="width:100%">
+    <img src="image/sky2.jpeg" style="width:100%">
+    <img src="image/uni1.jpeg" style="width:100%">
+    <img src="image/behindme.jpeg" style="width:100%">
+    <img src="image/nature1.jpeg" style="width:100%">
+    <img src="image/phone.jpeg" style="width:100%">
+    <img src="image/beach2.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/green.jpeg" style="width:100%">
+    <img src="image/momdad2.jpeg" style="width:100%">
+    <img src="image/hoodiemerah.jpeg" style="width:100%">
+    <img src="image/sky4.jpeg" style="width:100%">
+    <img src="image/naturerose.jpg" style="width:100%">
+    <img src="image/beach1.jpeg" style="width:100%">
+    <img src="image/smile.jpeg" style="width:100%">
+   </div>
+  </div>
+</div>
+
+</body>
+</html>

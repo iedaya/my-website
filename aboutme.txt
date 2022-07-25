@@ -1,0 +1,206 @@
+
+<html>
+<head>
+<title> ABOUT ME </title>
+</head>
+<a href ="website.html"></a>
+<style>
+body {
+  background-image: url('holo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<h2 align="center"><font face="lucida handwriting" font color="purple" size="40%"> &#128151; little story about myself &#128151; </font></h2> 
+<center><p style="font-size:48px">
+<hr>
+<nav>
+<table cellspacing="2" cellpadding="30">
+<tr>
+<td><a href="index.html">HOMES</a></td>
+<td><a href="biodata.html">BIODATA</a></td>
+<td><a href="aboutme.html">ABOUT ME</a></td>
+<td><a href="family.html">FAMILY</a></td>
+<td><a href="friend.html">FRIEND</a></td>
+<td><a href="gallery.html">GALLERY</a></td>
+</tr>
+</table>
+</nav>
+<hr>
+<br>
+<br>
+<h2 align="center"><font face="algerian" font size="5%" > &hearts; About Me &hearts; </font></a></h2> 
+
+<dl>
+<dt><b><i><font size="5%" font color="purple">I am a sky lover</font></dt></b></i>
+<dd><p><font face="VNI-Disney" font size="5%">I am not a pro at photography. But I love taking picture of clouds, nature and sunsets, 
+I took this one a long while ago with my mobile phones and I really like it. 
+Here it is some of my collection.</font></dd></p>
+<br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 45px;
+  left: 100px;
+  color: brown;
+  font-size: 30px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 58px;
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2 align="center"><font face="lucida handwriting" font color="brown" size="6%">My Collection</font></h2>
+  <p>Click on the images below:</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="image/sky1.jpeg" alt="Blue sky" style="width:50%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="image/sunset1.jpeg" alt="Sunset" style="width:50%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="image/nature1.jpeg" alt="Nature" style="width:50%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="image/beach1.jpeg" alt="Beach" style="width:50%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:30%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+<br>
+<br>
+<br>
+<br>
+<dt><b><i><font size="5%" font color="purple">Something interesting about nature photos</font></dt></b></i>
+<dd><p><font face="VNI-Disney" font size="5%">For me spending time in nature is an easy way for introverts like me to calm my overthinking minds. 
+Nature photography gives me an appreciation for the world that we live in. It takes me to places for extended periods of time, 
+and an opportunity to see and experience things we sometimes take for granted. 
+It provides me with some wonderful memories and photographs that I can share with others.</font></d></p>
+<br>
+<br>
+<br>
+<br>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 23.23%;
+  padding: 2px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column">
+    <img src="image/naturerose.jpg" alt="Rose" style="width:90%" height="65%" border="3">
+  </div>
+  <div class="column">
+    <img src="image/naturetasik.jpg" alt="Lake" style="width:160%" height="50%" hspace="4" vspace="0" border="3">
+  </div>
+  <div class="column">
+    <img src="image/naturepantai.jpeg" alt="Beach" style="width:"180%" height="50%" hspace="198" vspace="0"  border="3">
+  </div>
+  </div>
+<br>
+<br>
+<h2 align="center"><font face="lucida handwriting" font color="brown" size="6%">My Favourite Songs</font></h2>
+<p><font face="VNI-Disney" font size="5%">Here is my favorites song. ‘All I Want’ is an emotionally authentic song jotted down by Olivia Rodrigo. 
+The singer had written the song from the standpoint of a mythical personality she characterizes. 
+However, the justification of the song is she was able to write such a song in a very relatable way because of her real-life experiences. 
+On top of that, the issue is Olivia’s dissatisfaction with two of her ex-boyfriends.</p></font>
+
+
+<audio controls>
+  <source src="audio/Alliwant.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<title>Multimedia</title>
+<bgsound src="Alliwant.mp3">
+<embed src="" hidden="true" autostart="true"></embed>
+<marquee> HELLO GUYS !! THIS IS MY FAV SONG <3 </marquee>
+
+
+</body>
+</html>
